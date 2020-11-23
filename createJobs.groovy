@@ -13,7 +13,7 @@ pipelineJob('pokemon-job') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/ianguuima/Pokemon-Spring.git'
+                        url 'git url here'
                     }
                     branch 'master'
                 }
