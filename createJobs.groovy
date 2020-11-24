@@ -8,6 +8,9 @@ pipelineJob('pipelineJob') {
 }
 
 pipelineJob('pokemon-job') {
+    tools {
+        maven 'M3'
+    }
     definition {
         cpsScm {
             scm {
